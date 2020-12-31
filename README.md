@@ -18,15 +18,15 @@ If you are interested in my development environment, please refer to [this tutor
 ## Usage  
 
 ### Compatibility  
-`miniJava-to-k210-riscv-compiler.jar` is written by using `jdk1.8.0_101`.  
-`JRE version 1.8+` should be able to execute `miniJava-to-k210-riscv-compiler.jar` properly.  
+`minijava-to-k210-riscv-compiler.jar` is written by using `jdk1.8.0_101`.  
+`JRE version 1.8+` should be able to execute `minijava-to-k210-riscv-compiler.jar` properly.  
 `JRE 15.0.1` can execute it properly.  
 ### Command  
 If you would like to print RISC-V assembly to terminal,  
-`java -jar miniJava-to-k210-riscv-compiler.jar < test.java`  
+`java -jar minijava-to-k210-riscv-compiler.jar < test.java`  
   
 If you would like to print RISC-V assembly to file `test.s`,  
-`java -jar miniJava-to-k210-riscv-compiler.jar < test.java  > test.s`
+`java -jar minijava-to-k210-riscv-compiler.jar < test.java  > test.s`
 
 ### Examples
 `k210asms` & `k210out_pics`:  
@@ -41,5 +41,5 @@ The project is formed by modifying the target language of the last step to K210 
 ## Copyright Notice  
 The copyright of the content in the folder `testcases` and `cs132.jar` belongs to [Professor Palsberg](https://web.cs.ucla.edu/~palsberg/).  
   
-For Academic Integrity, this is NOT a open source project, and the file `miniJava-to-k210-riscv-compiler.jar` is highly obfuscated.  
+For Academic Integrity, this is NOT a open source project, and the file `minijava-to-k210-riscv-compiler.jar` is highly obfuscated.  
 (Professor Palsberg spent a lot of energy on the development of the RISC-V version homework for UCLA CS132 Compiler Construction, which is a CS capstone, so I try to protect the effectiveness of the homework here.)  
