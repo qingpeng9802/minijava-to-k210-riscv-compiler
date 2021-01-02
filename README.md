@@ -4,8 +4,8 @@ This Compiler can translate MiniJava into K210 RISC-V assembly.
 ## MiniJava Syntax and Type System  
 MiniJava is a subset of Java. The meaning of a MiniJava program is given by its meaning as a Java program.  
 [BNF for MiniJava](http://compilers.cs.ucla.edu/cs132/project/MiniJava.html)  
-[Syntax alternative source Tufts](http://alumni.cs.ucr.edu/~weesan/cs152/MiniJava.html)  
-[Syntax alternative source UCR](http://www.cs.tufts.edu/~sguyer/classes/comp181-2006/MiniJava.html)  
+[Syntax alternative source Tufts](http://www.cs.tufts.edu/~sguyer/classes/comp181-2006/MiniJava.html)  
+[Syntax alternative source UCR](http://alumni.cs.ucr.edu/~weesan/cs152/MiniJava.html)  
 [MiniJava-typesystem](http://web.cs.ucla.edu/~palsberg/course/cs132/MiniJava-typesystem.pdf)  
   
 If the syntax of the input MiniJava program is not correct, the Compiler will report an exception. Although common IDEs cannot check for MiniJava syntax correctness, the correct MiniJava program should be able to run in Java properly.  
